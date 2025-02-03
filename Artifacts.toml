@@ -1,182 +1,136 @@
 [[ONNXRuntime]]
 arch = "aarch64"
-git-tree-sha1 = "b140b614d1b478dd9dbc9b37011b5277bfe27539"
-lazy = true
+git-tree-sha1 = "3879fefc8c2523c5b7e2d2cee751067e8d33db16"
 os = "macos"
 
     [[ONNXRuntime.download]]
-    sha256 = "dc9788dd1401bb338fa4984487107c0d6a4fef71a2879251f2527424414dc703"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.aarch64-apple-darwin.tar.gz"
-[[ONNXRuntime]]
-arch = "aarch64"
-cuda = "10.2"
-git-tree-sha1 = "f79ad91f0a6b127538c98e1d7412a0fae53e5c48"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[ONNXRuntime.download]]
-    sha256 = "03246bc18fe6ebd1945b64ea8308609645576a7d2c8b82e86c0182ee81f49099"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.aarch64-linux-gnu-cuda+10.2.tar.gz"
+    sha256 = "5815b79aca3ed1158e49a2df2022707e2835582cf350fea84ea78276e24207e6"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+2/ONNXRuntime.v1.10.0.aarch64-apple-darwin.tar.gz"
 [[ONNXRuntime]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "e21156397e658abd1ef1f84672f4992bcbbaea5f"
-lazy = true
+git-tree-sha1 = "39c53de69429912ff30da89457d96e39fc9f6f12"
 libc = "glibc"
 os = "linux"
 
     [[ONNXRuntime.download]]
-    sha256 = "f1f8d38f3d344bbba2c9195cabe535c310f606e7cfc2b335f5575e655054a1a0"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "d4e252c4eb639d7e1e3dd929709fbe79e138aa4164f055ff56bc16feb3dc6dfb"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+2/ONNXRuntime.v1.10.0.aarch64-linux-gnu-cxx03.tar.gz"
 [[ONNXRuntime]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "11dd35eb9f3092cbb625b4cd1acf291324c081ef"
-lazy = true
+git-tree-sha1 = "c9c8732074b3625401fd4cf012d98926bd2791d2"
 libc = "glibc"
 os = "linux"
 
     [[ONNXRuntime.download]]
-    sha256 = "d8b14bad04b03d4a87caf693f2f5aa3233aa72e6650818a0008109a0f7bc0662"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "4e90672d8f40c5f9b1db78a28a0551955c6fda95d88c7084b2aca3a311122dc0"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+2/ONNXRuntime.v1.10.0.aarch64-linux-gnu-cxx11.tar.gz"
 [[ONNXRuntime]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d35128a1b363803be87082fc30760b0be3ca2f35"
-lazy = true
+git-tree-sha1 = "ca77c6551defaa9a2c9b14f343952f803c8ed09c"
 libc = "glibc"
 os = "linux"
 
     [[ONNXRuntime.download]]
-    sha256 = "67ae575c70a07f0569f305d9954c7019c5930fe6aebd2a6dae99fe2338242345"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.armv6l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "623dc3a71638436d1d67e968ce433b5e30cf8ffa741b216e0f1d0778b2c7b907"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+2/ONNXRuntime.v1.10.0.armv6l-linux-gnueabihf-cxx03.tar.gz"
 [[ONNXRuntime]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "5eeea6f13172388fc39cbcf78bb1f004ddcc7633"
-lazy = true
+git-tree-sha1 = "55264da8b57e81a52bd305498d47c3020ba71fe4"
 libc = "glibc"
 os = "linux"
 
     [[ONNXRuntime.download]]
-    sha256 = "cbd049197484ef202248af1c97cf1b65b86951a13562b48f4c8e38514e4af0dd"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.armv6l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "d3bae13d383dab37d5bd8e2c0dbc3d08198e51cb86952f22ad6a8963c140b6e9"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+2/ONNXRuntime.v1.10.0.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[ONNXRuntime]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "74e55ea23cf6962aeded9200e691ad889fe0d61e"
-lazy = true
+git-tree-sha1 = "06f7fdc5493123cb3c45a53b4843cedb6a51eb4c"
 libc = "glibc"
 os = "linux"
 
     [[ONNXRuntime.download]]
-    sha256 = "94e2217d25f113ebccf38b87db4498c27e82bdbaac06052071466dde585a32ef"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "5b0660a40e7d4477df2c46c5ba8a3317a380242afa4ea35b3aeca29214aa1afe"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+2/ONNXRuntime.v1.10.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[ONNXRuntime]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "c3914003e5da67a2fb867ecbdab2686f3b1ffb95"
-lazy = true
+git-tree-sha1 = "5b7d4b8830099e56b6a04d5a0c830e72aa696316"
 libc = "glibc"
 os = "linux"
 
     [[ONNXRuntime.download]]
-    sha256 = "ddd99209aff5e3689c1ff7bbd7bba297ac126aef7d75b58ae36db8d9cf8e8a16"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "aead934698b904104545aa01a99abd4f04faeb64e26b6e81e74c3b078aa81712"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+2/ONNXRuntime.v1.10.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[ONNXRuntime]]
 arch = "i686"
-git-tree-sha1 = "85e6418305745e90058426bf983ac70478d49317"
-lazy = true
+git-tree-sha1 = "97d3de3c35d9f61a6d0ad6d4b80a7a623951f5ff"
 os = "windows"
 
     [[ONNXRuntime.download]]
-    sha256 = "9fb12acdb90dfb4d58158058a213a448caed31a8abc22fa7f5a2d688855caadd"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.i686-w64-mingw32.tar.gz"
+    sha256 = "94f6da15c142a82d2643331a0f68ce4436eee8613f93cf776a88e050d000746d"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+2/ONNXRuntime.v1.10.0.i686-w64-mingw32.tar.gz"
 [[ONNXRuntime]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d70f85fa5ae23d98e2a2d8273800c3058307e6d3"
-lazy = true
+git-tree-sha1 = "3d2f724c251ab8880e83a0306f6002a313952283"
 libc = "glibc"
 os = "linux"
 
     [[ONNXRuntime.download]]
-    sha256 = "db47844f613ecda02118c195353abbcb1a27af2f9d89619b50838dcc784198ec"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "ebe8460406f9594006d0b007c010503ba19bd583aa79741601c281b566e9a735"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+2/ONNXRuntime.v1.10.0.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[ONNXRuntime]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f51ab873dca8d80e854637090c8a3df92df3519a"
-lazy = true
+git-tree-sha1 = "6fdaaf680ba0d28aa6b41e024701e36911be2fd8"
 libc = "glibc"
 os = "linux"
 
     [[ONNXRuntime.download]]
-    sha256 = "2b6e8f19ac82c72d9f798a82d61cecd979351d04f67715a01ed05bad3adf5c45"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "006c419b6d29906c5d568fcdd7eede2c2041bbfc074d19a9da956caf12001fae"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+2/ONNXRuntime.v1.10.0.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[ONNXRuntime]]
 arch = "x86_64"
-git-tree-sha1 = "47b5f628d4a688c4ebaf2cb449026e2b28bbbd8e"
-lazy = true
+git-tree-sha1 = "309b74fb7e9bc79f5452ebec45457f8118378e4c"
 os = "macos"
 
     [[ONNXRuntime.download]]
-    sha256 = "a208a315fab85991573563006d989903c0d23b1742c2adc80ed338952d66e57b"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.x86_64-apple-darwin.tar.gz"
-[[ONNXRuntime]]
-arch = "x86_64"
-cuda = "11.3"
-git-tree-sha1 = "fb1100d0a6a0a36b79f98b245e970ac598796bf9"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[ONNXRuntime.download]]
-    sha256 = "ce8395b7b5ddc6ecbbcedf3393188b62dea26809b331786b9ad396b06f03749e"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.x86_64-linux-gnu-cuda+11.3.tar.gz"
+    sha256 = "2c03fb8e6f93e1cf158cbc99356a3e96a5cae4c3e1da913dc8fe1f8366ff1587"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+2/ONNXRuntime.v1.10.0.x86_64-apple-darwin.tar.gz"
 [[ONNXRuntime]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "2934f5f7446b843d2d328f7973cd37809db45434"
-lazy = true
+git-tree-sha1 = "312109e9dc02a722ad83a8f86a191eaf03dafb9c"
 libc = "glibc"
 os = "linux"
 
     [[ONNXRuntime.download]]
-    sha256 = "83eb3471b10bf20dd730d2f4ab47390433e84711ae28a31c4d69f3c2270285bd"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "faa22f8fc4214b71c5ed08ccab2b0c10112565ddb4dc60ea970029ac4b6ca557"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+2/ONNXRuntime.v1.10.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[ONNXRuntime]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2787e84b3ff3af712b3159a7e610244e9693f9fa"
-lazy = true
+git-tree-sha1 = "85f0d03b195a3c5d1a9b8042a09844cfaf3b2cec"
 libc = "glibc"
 os = "linux"
 
     [[ONNXRuntime.download]]
-    sha256 = "551426a0a94ec5d90da0950df164367adb7a56f285809564400174feb39d5791"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "15f7e484428e8e578c23b4fa16fcd071ddb411ec619e47e60cfd1e5840b545d3"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+2/ONNXRuntime.v1.10.0.x86_64-linux-gnu-cxx11.tar.gz"
 [[ONNXRuntime]]
 arch = "x86_64"
-git-tree-sha1 = "7cdfcc20760c8c00af26f4163a0fd0955b16dfdd"
-lazy = true
+git-tree-sha1 = "25373f89a8a6649f237fc11d6a4661df6add8dab"
 os = "windows"
 
     [[ONNXRuntime.download]]
-    sha256 = "7e7da0a23a66f8c043394209e719d9f9f80e462a68d90e92fa8a97005cf6a3a9"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.x86_64-w64-mingw32.tar.gz"
-[[ONNXRuntime]]
-arch = "x86_64"
-cuda = "11.3"
-git-tree-sha1 = "8fa55028aeb49beca77fc8cf9dbc79f4f7ef97d5"
-lazy = true
-os = "windows"
-
-    [[ONNXRuntime.download]]
-    sha256 = "92e29b08c272e8a39e29d6265c4f7c422ff2e12b69f1cd898ab5cbe457ee80cd"
-    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+1/ONNXRuntime.v1.10.0.x86_64-w64-mingw32-cuda+11.3.tar.gz"
+    sha256 = "d7881e1b4a886afa0cf2756eb5f8da52e2b5ce2b7a15ff7a2b8e358d95981c5e"
+    url = "https://github.com/JuliaBinaryWrappers/ONNXRuntime_jll.jl/releases/download/ONNXRuntime-v1.10.0+2/ONNXRuntime.v1.10.0.x86_64-w64-mingw32.tar.gz"
